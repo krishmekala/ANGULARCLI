@@ -1,0 +1,19 @@
+<h1>Products Simple Table Formate:</h1>
+
+<table>
+    <tr>
+    <th>ProductID</th>
+    <th>ProductName</th>
+    <th>Price</th>
+    <th>Discount %</th>
+    <th>ProductImage</th>
+  </tr>
+    <tr *ngFor="let p of productList">
+        <td>{{p.pid}}</td>
+        <td>{{p.prodName|uppercase}}</td>
+        <td>{{p.prc|currency :'INR'}}</td>
+        <td>{{p.discnt}}</td>
+        <td>{{p.imgURL}}</td>
+  
+    </tr>
+  </table>

@@ -1,0 +1,16 @@
+<p>EditUserList</p>
+<table>
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Pasword</th>
+    </tr>
+    <tr *ngFor="let user of userList">
+        <td>{{user.FirstName}}</td>
+        <td>{{user.LastName}}</td>
+        <td>{{user.Email}}</td>
+        <td>{{user.Password}}</td>
+        <td *ngIf="UserName=='home'"><a routerLink="/editform">EditForm into SetValues</a></td>
+    </tr>
+</table>

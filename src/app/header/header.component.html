@@ -1,0 +1,6 @@
+<h1>Components List:</h1>
+<ul>
+    <li *ngFor="let mn of menuList; let i = index">
+       <a [routerLink]="mn.menuURL" routerLink="activeLink">{{mn.menuItem}}</a>
+    </li>
+</ul>
