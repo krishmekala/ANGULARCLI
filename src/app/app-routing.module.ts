@@ -28,7 +28,6 @@ const routes: Routes = [
 {
   path:'dateandtime',
 component:DateandtimeComponent,
-canActivate:[newautherizeGuard]
 },
 {
 path:'registrationform',
