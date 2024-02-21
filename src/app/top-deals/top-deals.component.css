@@ -1,0 +1,13 @@
+body{
+    max-width: 20%;
+    margin: auto;
+}
+p{
+    color:darkblue;
+    font-weight:bold;
+}
+h1,h2{
+
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

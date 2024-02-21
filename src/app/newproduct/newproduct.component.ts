@@ -8,6 +8,9 @@ import { ProductService } from '../product.service';
   styleUrls: ['./newproduct.component.css']
 })
 export class NewproductComponent implements OnInit {
+redirect() {
+throw new Error('Method not implemented.');
+}
   productList:any[]=[]
     
   ngOnInit(): void {

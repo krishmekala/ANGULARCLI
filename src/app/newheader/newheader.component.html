@@ -1,24 +1,40 @@
 <h1>LEARNING ANGULAR CLI DATA BINDING-{{concept}}</h1>
 <h2>Its Has Multiple Concept into basic two steps:</h2>
 <ul>
-  <li>{{subconcept}}</li>
+  <li>{{subconcept}}</li> 
   <li>{{subconcept1}}</li>
 </ul>
   <img src="../assets/Data-Binding-in-Angular-8.png">
-<button>submit</button>
-<app-header></app-header>
-
+  <div>
+    <img src="../assets/Onewaydatabinding.png" width="40%">
+    <img src="../assets/twowaydatabinding.jpeg" width="40%">
+    </div>
+<div>
+  <img src="../assets/coding.png">
+</div>
+<h2>Image Create:</h2>
+<div>
+    <img src="../assets/hp3.jpg">
+  </div>
+  <h2>Table Formate method:</h2>
 <table>
   <tr>
   <th>ProductID</th>
   <th>ProductName</th>
   <th>Price</th>
+  <th>Discount</th>
+  <th>Availability</th>
+  <th>Color</th>
+  <th>Images</th>
 </tr>
   <tr *ngFor="let p of productList">
       <td>{{p.pid}}</td>
       <td>{{p.prodName}}</td>
       <td>{{p.prc}}</td>
-
+      <td>{{p.discount}}</td>
+      <td>{{p.Availability}}</td>
+      <td>{{p.color|uppercase}}</td>
+      <td>{{p.imgURL}}</td>
   </tr>
 </table>
 <app-products></app-products>

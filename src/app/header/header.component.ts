@@ -43,6 +43,17 @@ export class HeaderComponent {
     {
       menuItem:'AdminUser',
       menuURL:'admin/add-User'
+    },
+    {
+      menuItem:'TopDeals',
+      menuURL:'TopDeals'
+    },{
+      menuItem:'PatchValue',
+      menuURL:'patchvalueform'
+    },
+    {
+      menuItem:'Calculator',
+      menuURL:'calculator'
     }
 
 

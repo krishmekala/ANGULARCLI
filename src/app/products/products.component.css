@@ -8,3 +8,18 @@ td{
     color: blue ;
     text-align: center;
 }
+
+th{
+    color:steelblue;
+    border-bottom-style: solid;
+    border-top-style:solid ;
+    border-right-style:solid ;
+    border-left-style: solid;
+    padding: 5px;   
+    display:table-cell;
+outline-style: solid;
+}
+ td{
+    color: blue;
+outline-style: solid;    
+ }

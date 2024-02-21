@@ -10,6 +10,9 @@ import { EdituserComponent } from './edituser/edituser.component';
 import { EditformComponent } from './editform/editform.component';
 import { newautherizeGuard } from './newautherize.guard';
 import { NewproductComponent } from './newproduct/newproduct.component';
+import { TopDealsComponent } from './top-deals/top-deals.component';
+import { PatchvalueformComponent } from './patchvalueform/patchvalueform.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 const routes: Routes = [
   {
@@ -28,6 +31,7 @@ const routes: Routes = [
 {
   path:'dateandtime',
 component:DateandtimeComponent,
+canActivate:[newautherizeGuard]
 },
 {
 path:'registrationform',
@@ -53,6 +57,18 @@ component:EditformComponent
 {
   path:'newproduct',
   component:NewproductComponent
+},
+{
+  path:'TopDeals',
+  component:TopDealsComponent
+},
+{
+path:'patchvalueform',
+component:PatchvalueformComponent
+},
+{
+  path:'calculator',
+ component:CalculatorComponent
 },
   { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) }
 ];

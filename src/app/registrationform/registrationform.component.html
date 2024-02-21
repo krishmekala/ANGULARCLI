@@ -2,30 +2,30 @@
  <img src="../assets/images.png">
 <form #registrationForm="ngForm"(ngSubmit)="subEnq(registrationForm)">
    <p>
-    <label for="Name">FirstName</label>
-    <input type="text" name="name" id="Fnm" ngModel>
+    <label for="FirstName">FirstName</label>
+    <input type="text" name="FirstName" id="Fnm" ngModel>
 </p>
 <p>
-    <label for="Name">LastName</label>
-    <input type="text" name="name" id="Lnm" ngModel>
+    <label for="LastName">LastName</label>
+    <input type="text" name="LastName" id="Lnm" ngModel>
 </p>
     <p><label for="number">ContactNumber</label>
-    <input type="text" name="number" id="num" ngModel>
+    <input type="text" name="Number" id="num" ngModel>
 </p>
     <p><label for="Email">Email</label>
     <input type="text" name="Email" id="eml" ngModel>
     
 </p>
 <p><label for="password">Password</label>
-    <input type="password" name="password" id="pswd" ngModel>
+    <input type="password" name="Password" id="pswd" ngModel>
 </p>
     <p>
     <label for="city">City</label>
-    <select name="city" id="city" ngModel>
-        <option value="Chn">Chennai</option>
-        <option value="Banglr">Bangalure</option>
-        <option value="Cmb">Coimbature</option>
-        <option value="Mbi">Mumbai</option>
+    <select name="City" id="city" ngModel>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalure">Bangalure</option>
+        <option value="Coimbature">Coimbature</option>
+        <option value="Mumbai">Mumbai</option>
     </select>
 </p>
 <p>
@@ -34,7 +34,9 @@
     <input type="radio" name="gender" value="FeMale" id="" ngModel>Female
 </p>
 <p>
-<button type="submit">Submit</button>
+<button type="submit" [disabled]="!registrationForm.valid">Submit</button>
 </p>
 </form>
-<p>form valid:{{registrationForm.value | json}}</p>
+<p>Form valid:{{registrationForm.value | json}}</p>
+<p>Form valid:{{!registrationForm.valid}}</p>
+

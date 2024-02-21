@@ -1,0 +1,153 @@
+h1,
+h2,
+h3 {
+    color: blueviolet;
+
+}
+
+ol {
+    color: blue;
+
+}
+
+.p {
+    color: red;
+}
+
+title,
+ul,
+table,
+p {
+    color: blue;
+}
+
+th {
+    color: brown;
+}
+
+.formStyle {
+
+    width: 500px;
+    margin: auto
+}
+
+.paraStyle {
+    border: solid;
+    border-width: 40px;
+    color: teal;
+
+    width: fit-content;
+    margin: 40px;
+    ;
+    padding: 20px;
+    background-color: deepskyblue;
+    font-size: 20px;
+}
+
+.cntrStyle {
+    width: 1200px;
+    height: 116px;
+    margin: 40px;
+    background-image: url(../ANGULARCLI/src/assets/BannerImg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.SvcCrd p {
+    color: brown;
+
+
+}
+
+.SvcCrd span {
+    color: blue;
+    padding-left: 10px;
+}
+
+body {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.SvcCrd {
+    float: left;
+    text-align: start;
+}
+
+.imgWrap {
+    text-align: center;
+}
+
+
+.navigation ul {
+    list-style: none;
+
+
+}
+
+.navigation li {
+    clear: both;
+    padding: 15px;
+    display: inline;
+    margin: 0;
+
+}
+
+.navigation li a {
+    margin: 10px;
+    text-decoration-line: none;
+    background-color:dodgerblue;
+    padding: 10px;
+    border-style: ridge;
+    float: right;
+    display: block;
+
+}
+
+.ImgLogo {
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    ;
+    ;
+}
+
+li a:hover {
+ background-color: deeppink;
+ font-weight: bold;
+}
+
+.li,
+a:hover {
+    background-color: aqua;
+}
+/*fhfjfjf*/
+@media  screen and (min-width:600px)
+{
+    .bdystyle{
+        background-color:lightslategray;
+     
+    }
+}
+
+@media  screen and (min-width:900px)
+{
+    .bdystyle{
+        background-color: skyblue;
+    }
+}
+@media  screen and (min-width:1200px)
+{
+    .bdystyle{
+        background-color:lightseagreen;
+     
+}
+    
+}
+
+
+
+
+
+

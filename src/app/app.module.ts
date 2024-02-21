@@ -15,6 +15,9 @@ import { EdituserComponent } from './edituser/edituser.component';
 import { NewproductComponent } from './newproduct/newproduct.component';
 import{HTTP_INTERCEPTORS, HttpClientModule}from '@angular/common/http';
 import { HttpserviceInterceptor } from './httpservice.interceptor';
+import { TopDealsComponent } from './top-deals/top-deals.component';
+import { PatchvalueformComponent } from './patchvalueform/patchvalueform.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,14 +29,18 @@ import { HttpserviceInterceptor } from './httpservice.interceptor';
     RegisterComponent,
     EditformComponent,
     EdituserComponent,
-    NewproductComponent
+    NewproductComponent,
+    TopDealsComponent,
+    PatchvalueformComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
     
 
   ],

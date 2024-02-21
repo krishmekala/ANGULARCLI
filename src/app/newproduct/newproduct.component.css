@@ -1,10 +1,21 @@
 h1{
-    color: blueviolet;
+        color: blueviolet;
 }
 tr{
     color:blue;
+
 }
 td{
     color: blue ;
     text-align: center;
+    outline-style: solid;
+    
+}
+th{
+    padding: 10px;
+    outline-style:solid;   
+}
+body{
+    max-width: 30%;
+    margin: auto;
 }

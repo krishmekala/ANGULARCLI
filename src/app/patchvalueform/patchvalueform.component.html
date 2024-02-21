@@ -1,0 +1,55 @@
+<h1>patchvalueform works!</h1>
+
+<div class="panel-heading">
+    <h1 class="panel-title">EditUser</h1>
+    </div>
+<img src="../assets/images.jpg">
+<form [formGroup]="registerForm">
+    
+    <p>
+        <label for="Name">FirstName</label>
+        <input type="text" name="name" id="Fnm" formControlName="fname">
+    </p>
+    <p>
+        <label for="Name">LastName</label>
+        <input type="text" name="name" id="Lnm" formControlName="lname">
+    </p>
+    <p><label for="number">ContactNumber</label>
+        <input type="text" name="number" id="num" formControlName="cNum">
+    </p>
+    <p><label for="Email">Email</label>
+        <input type="text" name="Email" id="eml" formControlName="email">
+
+    </p>
+    <p><label for="password">Password</label>
+        <input type="password" name="password" id="pswd" formControlName="pswd">
+    </p>
+    <p><label for="UserName">UserName</label>
+        <input type="UserName" name="username" id="username" formControlName="uname">
+    </p>
+    <p><label for="UserPassword">UserPassword</label>
+        <input type="password" name="password" id="pswd" formControlName="upswd">
+    </p>
+    <p><label for="Address">Address</label>
+        <input type="text" name="text" id="text" formControlName="add">
+    </p>
+
+
+    <p>
+        <label for="city">City</label>
+        <select name="city" id="city" formControlName="city">
+            <option value="Chn">Chennai</option>
+            <option value="Banglr">Bangalure</option>
+            <option value="Cmb">Coimbature</option>
+            <option value="Mbi">Mumbai</option>
+        </select>
+    </p>
+    <p>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="Male" id="" formControlName="gender">Male
+        <input type="radio" name="gender" value="FeMale" id="" formControlName="gender">Female
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>

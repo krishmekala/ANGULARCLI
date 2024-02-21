@@ -1,5 +1,5 @@
 h1{
-    color: blueviolet;
+    color: white;
     text-align: center;
 }
 p{
@@ -15,4 +15,11 @@ tr{
 td{
     color: blue ;
     text-align: center;
+}
+h1{
+    border-bottom: solid;
+    border-top:solid;
+    border-left:solid;
+    border-right: solid;
+    background-color:navy;
 }

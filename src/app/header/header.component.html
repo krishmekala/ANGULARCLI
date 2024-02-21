@@ -1,6 +1,27 @@
-<h1>Components List:</h1>
-<ul>
-    <li *ngFor="let mn of menuList; let i = index">
-       <a [routerLink]="mn.menuURL" routerLink="activeLink">{{mn.menuItem}}</a>
+<h2>LETS SEE MY URL'S:</h2>
+
+<!--<ul>
+    <li *ngFor="let mn of menuList; let i = index ">
+       <a [routerLink]="mn.menuURL" routerLinkActive="activeLink">{{mn.menuItem}}</a>
     </li>
+</ul>-->
+
+<ul>
+    <li><a routerLink="header" routerLinkActive="activeLink">Header</a></li>
+    <li><a routerLink="newheader" routerLinkActive="activeLink">NewHeader</a></li>
+    <li><a routerLink="products" routerLinkActive="activeLink">Products</a></li>
+    <li><a routerLink="dateandtime" routerLinkActive="activeLink">Date&Time</a></li>
+    <li><a routerLink="registrationform" routerLinkActive="activeLink">RegistrationForm</a></li>
+    <li><a routerLink="register" routerLinkActive="activeLink">Register</a></li>
+    <li><a routerLink="edituser" routerLinkActive="activeLink">EditUser</a></li>
+    <li><a routerLink="newproduct" routerLinkActive="activeLink">NewProduct</a></li>
+    <li><a routerLink="admin/add-User" routerLinkActive="activeLink">AdminUser</a></li>
+    <li><a routerLink="TopDeals"routerLinkActive="activeLink">TopDeals</a></li>
+    <li><a routerLink="calculator"routerLinkActive="activeLink">Calculator</a></li>
 </ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

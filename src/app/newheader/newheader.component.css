@@ -9,3 +9,25 @@ h2{
 ul,li{
     color: blueviolet;
 }
+p{
+    color:blue;
+}
+ th{
+    color:violet;
+    border-bottom-style: solid;
+    border-top-style:solid ;
+    border-right-style:solid ;
+    border-left-style: solid;
+    padding: 5px;
+    display:table-cell;
+    outline-style: solid; 
+}
+ td{
+    color: blue;
+    outline-style: solid;
+ }
+ 
+.navbar{
+    list-style:inherit;
+
+}

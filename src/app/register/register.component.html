@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
 <div class="panel-heading">
     <h1 class="panel-title">Reactive NewRegistration</h1>
     </div>
@@ -6,8 +10,7 @@
     
     <p>
         <label for="Name">FirstName</label>
-        <input type="text" name="name" id="Fnm" formControlName="fname">
-    </p>
+        <input type="text" name="name" id="Fnm" formControlName="fname"></p>
     <p>
         <label for="Name">LastName</label>
         <input type="text" name="name" id="Lnm" formControlName="lname">
@@ -48,6 +51,8 @@
         <input type="radio" name="gender" value="FeMale" id="" formControlName="gender">Female
     </p>
     <p>
-        <button type="submit">Submit</button>
+        <button type="submit"[disabled]="!registerForm.valid">Submit</button>
     </p>
 </form>
+    </body>
+</html>

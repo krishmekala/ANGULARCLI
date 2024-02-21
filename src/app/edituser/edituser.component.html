@@ -1,10 +1,13 @@
-<p>EditUserList</p>
+<body>
+<h3>EditUserList</h3>
 <table>
     <tr>
         <th>FirstName</th>
         <th>LastName</th>
         <th>Email</th>
         <th>Pasword</th>
+        <th>RedirectLink1</th>
+        <th>RedirectLink2</th>
     </tr>
     <tr *ngFor="let user of userList">
         <td>{{user.FirstName}}</td>
@@ -12,5 +15,7 @@
         <td>{{user.Email}}</td>
         <td>{{user.Password}}</td>
         <td *ngIf="UserName=='home'"><a routerLink="/editform">EditForm into SetValues</a></td>
+        <td *ngIf="UserName=='home'"><a routerLink="/patchvalueform">EditForm into PatchValues</a></td>
     </tr>
 </table>
+</body>

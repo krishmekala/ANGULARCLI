@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../product.service';
+import { product } from '../model/product';
 
 @Component({
   selector: 'app-products',
@@ -9,7 +10,7 @@ import { ProductService } from '../product.service';
 })
 export class ProductsComponent implements OnInit {
 
-  productList:any[]=[]
+  productList:product[]=[]
   ngOnInit(): void {
 
     this.productList=this.productsSVC.productList
