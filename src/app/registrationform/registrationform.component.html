@@ -1,5 +1,6 @@
  <h1>RegistrationForm</h1>
- <img src="../assets/images.png">
+ <body>
+     <img  [src]="ImgURL">
 <form #registrationForm="ngForm"(ngSubmit)="subEnq(registrationForm)">
    <p>
     <label for="FirstName">FirstName</label>
@@ -36,7 +37,8 @@
 <p>
 <button type="submit" [disabled]="!registrationForm.valid">Submit</button>
 </p>
+
 </form>
 <p>Form valid:{{registrationForm.value | json}}</p>
 <p>Form valid:{{!registrationForm.valid}}</p>
-
+</body>

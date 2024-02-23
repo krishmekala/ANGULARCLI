@@ -13,8 +13,10 @@ export class NewheaderComponent {
   subconcept1:string='Property Binding-->[--Binding--]';
   subconcept3:string='hai';
   rollNo:number=101;
-  imgURL:string="../assets/Data-Binding-in-Angular-8.png";
-  imgurl:string="../assets/Onewaydatabinding.png";
+  imgURL:string="assets/Data-Binding-in-Angular-8.png";
+  imgurl:string="assets/Onewaydatabinding.png";
+  ImgUrL:string="assets/Two_Way_Data_Binding.webp";
+  url:string="assets/coding.png";
   IsValidUser:boolean=false;
   name:string="Mekala";
  

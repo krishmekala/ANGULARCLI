@@ -6,4 +6,10 @@ input{
     color:purple;
 }h1{
     color:deeppink;
+    
+}
+body,h1{
+    max-width: 30%;
+    margin: auto;
+
 }

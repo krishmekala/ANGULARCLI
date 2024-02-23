@@ -11,12 +11,12 @@ export class TopDealsComponent {
   TopDeals:TopProducts[]=[
     {
       pid:1001,
-      prodName:'Hp Laptop',
-      prc:2500,
+      prodName:'HpLaptop',
+      prc:55000,
       discount:10,
-      Availability:1210,
-      color:'red',
-      pImg:"../assets/hp3.jpg"
+      Availability:12,
+      color:'LightGray',
+      pImg:"assets/hp3.jpg"
     },
     {
       pid:1002,
@@ -25,7 +25,7 @@ export class TopDealsComponent {
       discount:10,
       Availability:1210,
       color:'yellow',
-      pImg:"../assets/hp3.jpg"
+      pImg:"assets/hp4.jpg"
     },
     {
       pid:1003,
@@ -34,7 +34,7 @@ export class TopDealsComponent {
       discount:10,
       Availability:1210,
       color:'pink',
-      pImg:"../assets/hp3.jpg"
+      pImg:"assets/hp5.jpg"
     }
   ]
 constructor(private rout:Router){

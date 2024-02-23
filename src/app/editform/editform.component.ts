@@ -7,6 +7,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./editform.component.css']
 })
 export class EditformComponent implements OnInit {
+  ImgURL:string="assets/images.jpg";
   registerForm = new FormGroup({
     fname: new FormControl('',[Validators.required,Validators.minLength(6)]),
     lname: new FormControl('',[Validators.required,Validators.maxLength(6)]),

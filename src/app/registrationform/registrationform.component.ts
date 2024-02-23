@@ -7,7 +7,8 @@ import { ProductService } from '../product.service';
   styleUrls: ['./registrationform.component.css']
 })
 export class RegistrationformComponent implements OnInit {
-constructor(private product :ProductService){
+  ImgURL:string="assets/images.png";
+  constructor(private product :ProductService){
 
 }
 

@@ -7,6 +7,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./patchvalueform.component.css']
 })
 export class PatchvalueformComponent implements OnInit{
+  imgURL:string="assets/images.jpg";
 registerForm=new FormGroup({
   fname: new FormControl('',[Validators.required,Validators.maxLength(11)]),
   lname: new FormControl('',[Validators.required,Validators.maxLength(6)]),

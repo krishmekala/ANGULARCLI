@@ -9,6 +9,7 @@ import { ProductService } from '../product.service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit{
+  imgURL:string="assets/images.png";
   constructor(private productsSVC:ProductService){
 
   }
